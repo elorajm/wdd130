@@ -26,7 +26,7 @@ body{
 }
 a:hover{
     background-color: rgb(161, 143, 119);
-    color: #022512d2;
+    color: rgba(187, 13, 13, 0.968);
 }
 .home-title{
     color:rgb(161, 143, 119);
@@ -47,14 +47,14 @@ h4{
     color: rgb(161, 143, 119);
 }
 .msg p{
-    color: black;
+    color: rgba(187, 13, 13, 0.968);
     font-family: 'Helvetica';
     font-size: 0.8em;
     line-height: 1.5em;
     padding-bottom: 15px;
 }
 footer a{ 
-    color:rgb(132, 52, 52);
+    color:rgb(147, 14, 14);
     text-decoration: none;
 }
 footer a:hover{
