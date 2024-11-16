@@ -198,6 +198,31 @@ footer{
 .card-img, .mountains {
     width: 100%;
 }
+
+/*blog layout*/
+
+h1 {
+    text-align: center;
+}
+
+.text {
+    text-align: justify;
+    margin: 30px;
+}  
+
+.bighorn-ram {  
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    place-items: center;
+
+}
+
+#river-wide_blog_2 {
+    width: 100%;
+
+}
 /* Step 7: */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
