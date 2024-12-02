@@ -149,7 +149,7 @@ section.gallery {
   max-width: 1200px;  /* Optional: Limit the max-width of the gallery */
   padding: 0 4px;
   flex-wrap: wrap; /* Allows images to wrap to the next line if necessary (useful for responsive design) */
-  }
+}
   
   /* Individual gallery items */
 .gallery-item {
@@ -165,8 +165,39 @@ section.gallery {
   align-self: center;
   justify-self: center;
 }
+ /*trying this code out for gallery jump to about page when clicked on */
 
+ /* Style the gallery container */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;  /* Space between images */
+}
 
+/* Style the images inside the anchor tag */
+.gallery a img {
+  width: 100%;
+  max-width: 300px;  /* Adjust the max width as needed */
+  height: auto;
+  border-radius: 8px;  /* Optional: gives images rounded corners */
+  transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+/* Hover effect to make images zoom */
+.gallery a img:hover {
+  transform: scale(1.1);
+}
+
+/* Remove default anchor styles (like underlining) */
+.gallery a {
+  text-decoration: none;  /* Remove underline */
+  display: block;  /* Make the anchor tag a block element */
+}
+
+/* Optional: Add some shadow around the images */
+.gallery a img {
+  box-shadow: 0 4px 8px #396E94; /* Soft shadow */
+}
 /* Footer: */
 footer {
   background-color: #ecf0f0;
